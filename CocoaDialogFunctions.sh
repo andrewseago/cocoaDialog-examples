@@ -3,13 +3,14 @@
 #	This script should be sourced into any other scripts needing CocoaDialogFunctions
 #
 # Created by andrewws on 06/30/14.
-# Updated by andrewws on 10/01/2018
+# Updated by andrewws on 10/17/2018
 
 
 ## Variables
 ####################################################################################################
-PathToCocoaDialog=""
-CocoaDialogIcon="$PathToCocoaDialog/Contents/Resources/AppIcon.icns"
+PathToRepo=""
+CocoaDialog="$PathToRepo/cocoaDialog 3.0-beta7/cocoaDialog.app/Contents/MacOS/cocoaDialog"
+CocoaDialogIcon="$PathToRepo/cocoaDialog 3.0-beta7/cocoaDialog.app/Contents/Resources/AppIcon.icns"
 button=""
 StandardInputbox_Output=""
 SecureStandardInputBox_Output=""
